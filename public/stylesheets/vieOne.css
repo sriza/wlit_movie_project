@@ -1,0 +1,41 @@
+
+h1{
+	color:purple;
+
+}
+p{
+	text-align: justify;
+	letter-spacing: 1px;
+	 font-family: "Times New Roman", Times, serif;
+}
+.mdescrip{
+	margin: 5% 15% 15%;
+	background-color: white;
+	border: solid white 3px;
+	border-radius: 3%;
+	box-shadow: 10px 10px 10px 10px black;
+    border: 1px solid #77aaff;
+    opacity:.9;
+    align-content: center;
+    padding:50px;
+         
+}
+body{
+	background-color:#466B70;
+
+}
+h5{
+	color:brown;
+}
+
+button{
+	background-color: #365e6d;
+	color: white;
+	height: 25%;
+	width: 15%;
+	padding:5px;
+}
+
+button:active{
+	transform: translateY(4px);
+}

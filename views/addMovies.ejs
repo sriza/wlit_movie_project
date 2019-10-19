@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/adMovies.css">
+</head>
+
+<body>
+    <div>
+        <h2 id="title">Hey movie enthusiast! <br> Let's share the review on movie of your taste.</h2>
+        <form method="post" action="/addmovie">
+            <p>
+                <h4>Name of the movie</h4>
+                <input type="text" class="tinput" name="name">
+            </p>
+            <p>
+                <h4>Cast </h4>
+                <input type="text" class="tinput" name="cast">
+            </p>
+            <p>
+                <h4>Genre </h4>
+                <input type="text" class="tinput" name="genre">
+            </p>
+            <p>
+                <h4>Description</h4>
+                <textarea id="tarea" rows="3" name="description" cols="30"></textarea>
+            </p>
+            <input id="button" type="submit" value="SUBMIT" onclick="window.location.href='/viewMovies.ejs'" />
+        </form>
+    </div>
+
+</body>
+
+</html>
